@@ -1,0 +1,26 @@
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .header {
+        width: 100%;
+        height: 100px;
+        background: pink;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        z-index: 10;
+        transition: 1s;
+        padding: 20px;
+
+        .radio {
+            margin-right: 30px;
+        }
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+    }
+}
